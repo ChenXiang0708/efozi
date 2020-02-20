@@ -1,0 +1,12 @@
+@import '../../styles/common';
+.Comment__container{width: 730px;
+  .comment__btn{text-align: center;color: $red;cursor: pointer;font-weight: bold}
+  .editComment__icon{margin-left: 10px}
+
+  .comment{position: relative;
+    .comment__area{resize: none;height: 100px}
+    .comment__handle{margin-top: 8px;display: flex;justify-content: flex-end;align-items: center}
+    .comment__hint{margin-right: 20px;font-size: 12px;color: #8e8787;}
+    .comment__close{margin-right: 16px}
+  }
+}

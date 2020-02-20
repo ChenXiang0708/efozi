@@ -1,0 +1,17 @@
+@import '../../styles/common';
+.CommentList__container{width: 730px;
+
+  .comment__item{margin-top: 32px; padding: 0 0 32px 68px;border-bottom: 1px solid #f0f0f0;}
+  .comment__item:nth-of-type(1){padding-top: 32px; border-top: 1px solid #f0f0f0;}
+
+  .author{margin-left: 14px;font-size: 14px;font-weight: 600;margin-bottom: 5px;color: #E4BB76;}
+  .content{padding-left: 54px;margin-top: 8px;line-height: 1.4;font-size: 16px;color: #4c4e4d;word-wrap: break-word;}
+
+
+  .footer{padding-left: 54px;margin-top: 16px;display: flex;justify-content: space-between;}
+  .time{color: #8e8787;margin-right: 16px;}
+  .like{display: flex;align-items: center;}
+  .like__number{margin-left: 5px;}
+
+
+}
